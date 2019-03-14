@@ -1,0 +1,83 @@
+body{
+height:100vh;
+width:100vw;
+display:flex;
+margin:0;
+}
+.green{
+	height:100%;
+	width:50%;
+	display:block;
+	background-color:#800000;
+	border-style:solid;
+	border-width:1px;
+}
+
+.display{
+	display: none;
+}
+.poop{
+	height:100%;
+	width:50%;
+	display:block;
+	background-color:#500000;
+	border-style:solid;
+	border-width:1px;
+}
+
+.restrict-img-size{
+	max-height: 100%;
+    max-width: 100%;
+}
+
+.center-content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	 font-size: 40px;
+}
+
+.red{
+	height:calc(50% - 2px);
+	width:100%;
+	display:flex;
+	background-color:#1e5459;
+}
+.brown{
+	height:100%;
+	width:50%;
+	border-style:solid;
+	border-width:1px;
+	}
+.cow{
+	height:100%;
+	width:50%;
+	border-style:solid;
+	border-width:1px;
+}
+.hi{
+	height:100%;
+	width:50%;
+	border-style:solid;
+	border-width:1px;
+}
+.bii{
+	height:100%;
+	width:50%;
+	border-style:solid;
+	border-width:1px;}
+.yes{
+	height:calc(50% - 2px);
+	width:100%;
+	display:flex;
+	border-style:solid;
+	border-width:1px;
+}
+.cover{
+	object-fit:-cover;
+	width:100%;
+	height:100%
+}/*this is my hardest piece in css because id did not foucous on css and all it does is make one image stretch to fill the div I put it in*/
+.opaque {
+	opacity: 0.25;
+}
